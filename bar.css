@@ -1,12 +1,22 @@
-h1{
-    color:#990088;
-    font-size:500%;
-    
+@charset "utf-8";
+header{
+    height: 90px;
+    width: 100%;
+    background-color:#ffffff;
 }
-
-#header{
-    position:relative;
-    height:100vh;
+main h1{
+    color:rgb(73, 180, 121);
+    text-align:center;
+    font-family:Book Antiqua;
+}
+.h1{
+    color:#aa8fc7;
+}
+main{
+    height:100%;
+}
+.img{
+    position:absolute;
 }
 #video-area{
     position:fixed;
@@ -29,22 +39,27 @@ h1{
     min-width:100%;
 }
 
+.big_box{
+    height:80%;
+    width:80%;
+}
+
 ul.menu{
     margin:0px;
-    padding:0px 0px 0px 15px;
-    background-color: #38c718;
+    padding:0px 0px 0px 5px;
+    background-color: #9e92e6;
 }
 
 ul.menu li{
-    width:125px; /*メニュー項目の横幅*/
+    width:24%; /*メニュー項目の横幅*/
     display:inline-block; /*横並びに配置*/
     list-style-type:none;
     position:relative;
 }
 
 ul.menu a{
-    background-color:#cc0000;
-    color:white;
+    background-color:#3b0679;
+    color:rgb(255, 255, 255);
     line-height:40px;
     text-align:center;
     text-decoration:nonel
@@ -61,8 +76,8 @@ ul.menu ul{
 }
 
 ul.menu a:hover{
-    background-color:#ffdddd;
-    color:#dd0000;
+    background-color:#5ac0df;
+    color:#000000;
 }
 
 ul.menu li:hover ul{
@@ -70,7 +85,7 @@ ul.menu li:hover ul{
 }
 .bg::before{
     content:'';
-    background-color:rgba(0,0,0,0.7);
+    background-color:rgba(0,0,0,0.75);
     position:absolute;
     top: 0;
     left: 0;
@@ -78,4 +93,18 @@ ul.menu li:hover ul{
     height: 100%;
     display: block;
 
+}
+section {
+    height: 150px;
+    width: 190px;
+    background-color: #EAF9B5;
+    margin-inline-start: 30px;
+    float: left;
+}
+article {
+    height: 750px;
+    width: 60%;
+    background-color: #262231;
+    margin-top: 10em;
+    margin-left: 30%;
 }
