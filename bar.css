@@ -1,23 +1,27 @@
 @charset "utf-8";
 header{
-    height: 90px;
+    height: 115px;
     width: 100%;
     background-color:#ffffff;
     z-index:-1;
 }
 header h1{
     color:#1505ff;
+    font-size:15px;
 }
 main h1{
     color:rgb(73, 180, 121);
     text-align:center;
     font-family:Book Antiqua;
+    font-size:200%;
+    margin:5px;
 }
 .first{
-    color:rgb(73, 180, 121);
-    font-family:Courier New;
     font-size:50px;
+    color:yellow;
+    font-family:Yu mincho;
 }
+
 main{
     height:100%;
 }
@@ -35,7 +39,7 @@ main{
 }
 #video{
     position:absolute;
-    z-index:-1;
+    z-index:-2;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
@@ -48,16 +52,20 @@ main{
 .big_box{
     height:80%;
     width:80%;
+    max-width:1000px;
+    max-height:1500px;
+    box-align:center;
 }
 
 ul.menu{
     margin:5px;
     padding:0px 0px 0px 5px;
     background-color:#3b0679;
+    z-index:-1;
 }
 
 ul.menu li{
-    width:24%;
+    width:300px;;
     display:inline-block; /*横並びに配置*/
     list-style-type:none;
     position:relative;
@@ -71,6 +79,8 @@ ul.menu a{
     text-decoration:none;
     font-weight:bold;
     display:block;
+    z-index:1;
+    font-family:Yu mincho;
 }
 
 ul.menu ul{
@@ -102,14 +112,47 @@ ul.menu li:hover ul{
 
 }
 section {
-    height: 150px;
-    width: 190px;
+    height: 100%;
+    width: 100%;
     background-color: #EAF9B5;
-    margin-inline-start: 30px;
+    margin:0px;
+    margin-inline-start: 0px;
     float: left;
+    /*border: thick solid #48EF41;*/
 }
+
 article {
-    height: 750px;
+    height: 400px;
+    width: 60%;
+    background-color: #262231;
+    margin-top: 10em;
+    margin-left: 30%;
+}
+img{
+    max-width:720px;
+    max-height:720px;
+}
+.r_aside {
+    height: 500px;
+    width: 25%;
+    background-color: #693E95;
+    float: right;
+    margin-top:155px;
+    margin-right:20px;
+}
+aside {
+    height: 100px;
+    width: 160px;
+    background-color: #8083DA;
+    margin-top: 2em;
+    margin-left: 0.6em;
+}
+main p{
+    font-family:Yu mincho;
+    text-align:center;
+}
+#article2{
+    height: 800px;
     width: 60%;
     background-color: #262231;
     margin-top: 10em;
