@@ -18,6 +18,28 @@ main h1{
     font-size:300%;
     margin:10px;
 }
+h3{
+    color:rgb(47, 255, 0);
+    text-align:center;
+    font-size:18px;
+    font-family:sans-serif;
+    font-weight:bold;
+    margin-top:40px;
+    
+}
+
+
+main{
+    height: 550px;
+    width: 1280px;
+    background-color: #000000;
+    float: left;
+    margin-top:100px;
+    height:100%;
+    margin-left: 10%;
+}
+
+
 .first{
     font-size:300%;
     color:yellow;
@@ -25,13 +47,6 @@ main h1{
     
 }
 
-main{
-    height:100%;
-    float:center;
-}
-.img{
-    position:absolute;
-}
 #video-area{
     position:fixed;
     z-index:-1;
@@ -68,7 +83,7 @@ ul.menu{
 }
 
 ul.menu li{
-    width:300px;;
+    width:450px;;
     display:inline-block; /*横並びに配置*/
     list-style-type:none;
     position:relative;
@@ -119,43 +134,61 @@ ul.menu li:hover ul{
     
 
 }
-section {
-    height: 100%;
-    width: 100%;
-    background-color: #EAF9B5;
-    margin:10px;
-    margin-inline-start: 0px;
+.itiran {
+    height: 150px;;
+    width: 150px;
+    
+    margin:0px;
+    margin-inline-start: 15px;
     float: left;
     /*border: thick solid #48EF41;*/
 }
-
-
+.white{
+    color:white;
+    font-size:22px;
+    margin-top:-20px;
+}
+.white2{
+    color:white;
+    font-size:33px;
+    text-align:center;
+    margin-top:-15px;
+}
+.sinamei{
+    height:300px;
+    text-align:center;
+}
 .article1{
     height: 500px;
-    width: 60%;
+    width: 40%;
     background-color: #211c27;
-    margin-top: 0em;
-    margin-left: 30%;
-    max-width:600px;
+    margin-top: 2%;
+    margin-left: 2%;
+    float:left;
 }
 .article2{
-    height: 850px;
-    width: 60%;
+    height: 500px;
+    width: 55%;
     background-color: #211c27;
-    margin-top: 10em;
-    margin-left: 30%;
-    margin-top:30em;
-    max-width:600px;
+    margin-top: 2%;
+    float:right;
+    margin-right:2%;
+  
 }
 
-.img{
-    max-width:720px;
-    max-height:720px;
+.corse{
+    color:#52bd7e;
+    font-size:30px;
+    margin-right:1px;
 }
+h2{
+    margin-right:13px;
+}
+
 
 main p{
     font-family:Yu mincho;
-    text-align:center;
+    text-align:left;
     font-size:18px;
 }
 
@@ -170,4 +203,19 @@ footer {
     height:125%;
     width:125%;
     float:center;
+}
+.img{
+    float:center;
+    
+    margin-top:-30px;
+    width:100px ;
+    height:100px;
+}
+.img2{
+    float:center;
+    width:150px;
+    height:150px;
+    margin-top:-10px;
+    margin-left:15px;
+
 }

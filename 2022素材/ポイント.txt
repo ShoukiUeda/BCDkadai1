@@ -65,9 +65,16 @@
 工夫店
 メニューはぱっと見でわかりやすく
 一番目につきやすいところに案内させやすいように
+暗い画像をphotoshopで明るくした
+使用したツール
+Visual Studio Code
+Adobe Photo shop 2022
+Google Chrome
 
 https://fromkato.com/webdev/css/properties/font-family
 https://coco-factory.jp/ugokuweb/move01/6-3-1/
 https://illust8.com/contents/2265
 https://dezanari.com/css-img-darken/
 https://illustmansion.com/design-tool/mark/click-mark
+https://www.pinterest.jp/pin/756675174886685653/
+https://www.pc-koubou.jp/magazine/20027
