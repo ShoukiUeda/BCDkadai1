@@ -68,7 +68,7 @@ ul.menu{
 }
 
 ul.menu li{
-    width:300px;;
+    width:450px;;
     display:inline-block; /*横並びに配置*/
     list-style-type:none;
     position:relative;

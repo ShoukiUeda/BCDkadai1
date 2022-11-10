@@ -68,7 +68,7 @@ ul.menu{
 }
 
 ul.menu li{
-    width:300px;;
+    width:450px;;
     display:inline-block; /*横並びに配置*/
     list-style-type:none;
     position:relative;
@@ -173,4 +173,17 @@ footer {
 }
 p{
     color:white;
+}
+.Imenu{
+    height:100%;
+    width:100%;
+}
+.article3{
+    height: 850px;
+    width: 60%;
+    background-color: #211c27;
+    margin-top: 0px;
+    margin-left: 30%;
+
+    max-width:600px;
 }
